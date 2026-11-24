@@ -1,8 +1,8 @@
-# LLM Judge Calibrator
+# LLM Judge Bias Correction
 
 Paste an LLM judge's confusion matrix from a human-labeled calibration set and get a prediction-powered corrected pass rate with a confidence interval, beside Rogan-Gladen and its refusal states.
 
-**Live demo:** https://0xelitesystem.github.io/llm-judge-calibrator/
+**Live demo:** https://0xelitesystem.github.io/llm-judge-bias-correction/
 
 ## Use
 
@@ -85,8 +85,8 @@ Everything runs in your browser. There is no backend, no API key, no analytics, 
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/llm-judge-calibrator
-cd llm-judge-calibrator
+git clone https://github.com/0xelitesystem/llm-judge-bias-correction
+cd llm-judge-bias-correction
 ```
 
 Open `index.html` in any modern browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
